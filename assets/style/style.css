@@ -29,7 +29,7 @@ header{
 }
 header > h1{
     color:white;
-    font-size: 10vw;
+    font-size: 6vw;
     font-family: var(--fonte2);
     font-weight: bold;
     font-variant: small-caps;
@@ -105,15 +105,28 @@ footer{
     background-color: black;
     color: #fff;
     
+    
 }
-@media (min-width:320px), (max-width:720px){
+ footer > #rodape{
+    font-size: 150px;
+}
+@media (min-width:320px){
     header{
         height:150px ;
+    }
+    header > h1{
+     font-size: 30px;
     }
     header  #subTit{
         font-size: 15px;
     }
-    footer > p{
+    .img{
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    footer #rodape{
         font-size:10px ;
     }
 }
