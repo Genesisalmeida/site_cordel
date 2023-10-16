@@ -65,9 +65,10 @@ section > p{
 }
 .img{
     background-image: url(../imagens/background001.jpg);
-    background-position: right top;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 .img > p {
     display: inline-block;
@@ -87,6 +88,7 @@ section > p{
     background-position: center center ;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 .img2 > p{
     display: inline-block;
@@ -109,14 +111,14 @@ footer{
 footer  a{
     text-decoration: none;
     cursor: pointer;
-    font-size: 1vw;
+    font-size: 2vw;
     color: #fff;
 }
 footer a:hover{
     text-decoration: underline;
 }
  footer > .rodape{
-    font-size: 1vw;
+    font-size: 2vw;
 }
 @media (max-width:320px){
     header{
@@ -134,7 +136,5 @@ footer a:hover{
         background-attachment: fixed;
     }
     
-    footer #rodape{
-        font-size:10px ;
-    }
+
 }
