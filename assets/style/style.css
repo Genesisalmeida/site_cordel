@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-
-
 *{
     margin: 0;
     padding: 0;
@@ -29,10 +27,10 @@ header{
 }
 header > h1{
     color:white;
-    font-size: 6vw;
     font-family: var(--fonte2);
     font-weight: bold;
-    font-variant: small-caps;
+    font-variant: small-caps; /* letra maiuscula*/
+    font-size: 8vw;
     
     
 }
@@ -40,6 +38,7 @@ header > p{
     font-family: var(--fonte3);
     color: white;
     font-weight: 900;
+    font-size:1.5vw ;
     
 }
 header  #subTit{
@@ -107,10 +106,19 @@ footer{
     
     
 }
- footer > #rodape{
-    font-size: 150px;
+footer  a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1vw;
+    color: #fff;
 }
-@media (min-width:320px){
+footer a:hover{
+    text-decoration: underline;
+}
+ footer > .rodape{
+    font-size: 1vw;
+}
+@media (max-width:320px){
     header{
         height:150px ;
     }
